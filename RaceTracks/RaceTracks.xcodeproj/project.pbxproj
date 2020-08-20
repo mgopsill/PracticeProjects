@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D99D2D024C94E5E008080DD /* RaceTracksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D99D2CF24C94E5E008080DD /* RaceTracksApp.swift */; };
+		4D99D2D224C94E5E008080DD /* RaceTrackDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D99D2D124C94E5E008080DD /* RaceTrackDetailView.swift */; };
+		4D99D2D424C94E5E008080DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D99D2D324C94E5E008080DD /* Assets.xcassets */; };
+		4D99D2D724C94E5E008080DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D99D2D624C94E5E008080DD /* Preview Assets.xcassets */; };
+		4D99D2DF24C94FAF008080DD /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D99D2DE24C94FAF008080DD /* CircleImage.swift */; };
+		4D99D2E124C95028008080DD /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D99D2E024C95028008080DD /* MapView.swift */; };
+		4D99D2E324C95298008080DD /* RaceTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D99D2E224C95298008080DD /* RaceTrack.swift */; };
+		4D99D2FB24C95369008080DD /* racetrackData.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D99D2EE24C95369008080DD /* racetrackData.json */; };
+		4D99D30024C9538A008080DD /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D99D2FF24C9538A008080DD /* Data.swift */; };
+		4D99D30224C954EF008080DD /* silverstone.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D99D30124C954EF008080DD /* silverstone.png */; };
+		4D99D30424C95566008080DD /* adelaide.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D99D30324C95566008080DD /* adelaide.png */; };
+		4D99D30624C955B6008080DD /* brandshatch.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D99D30524C955B6008080DD /* brandshatch.png */; };
+		4D99D30824C95616008080DD /* barcelona.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D99D30724C95616008080DD /* barcelona.png */; };
+		4D99D30A24C95656008080DD /* monaco.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D99D30924C95656008080DD /* monaco.png */; };
+		4D99D30C24C95696008080DD /* americas.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D99D30B24C95696008080DD /* americas.png */; };
+		4D99D30E24C9577D008080DD /* RaceTrackRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D99D30D24C9577D008080DD /* RaceTrackRow.swift */; };
+		4D99D31024C95941008080DD /* RaceTrackList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D99D30F24C95941008080DD /* RaceTrackList.swift */; };
+		4D99D31224C95E10008080DD /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D99D31124C95E10008080DD /* UserData.swift */; };
+		4D99D31424C95F2F008080DD /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D99D31324C95F2F008080DD /* BadgeSymbol.swift */; };
+		4D99D31624C95F6F008080DD /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D99D31524C95F6F008080DD /* HexagonParameters.swift */; };
+		4D99D31824C95FF9008080DD /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D99D31724C95FF9008080DD /* BadgeBackground.swift */; };
+		4D99D31A24C9607F008080DD /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D99D31924C9607F008080DD /* Badge.swift */; };
+		4D99D31C24C96144008080DD /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D99D31B24C96144008080DD /* RotatedBadgeSymbol.swift */; };
+		4D99D31E24C96247008080DD /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D99D31D24C96247008080DD /* hikeData.json */; };
+		4D99D32424C9627C008080DD /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D99D31F24C9627C008080DD /* HikeDetail.swift */; };
+		4D99D32524C9627C008080DD /* GraphCapsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D99D32024C9627C008080DD /* GraphCapsule.swift */; };
+		4D99D32624C9627C008080DD /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D99D32124C9627C008080DD /* HikeView.swift */; };
+		4D99D32724C9627C008080DD /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D99D32224C9627C008080DD /* Hike.swift */; };
+		4D99D32824C9627C008080DD /* HikeGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D99D32324C9627C008080DD /* HikeGraph.swift */; };
+		4D99D32A24C962D4008080DD /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D99D32924C962D4008080DD /* Home.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D99D2CC24C94E5D008080DD /* RaceTracks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaceTracks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D99D2CF24C94E5E008080DD /* RaceTracksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceTracksApp.swift; sourceTree = "<group>"; };
+		4D99D2D124C94E5E008080DD /* RaceTrackDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceTrackDetailView.swift; sourceTree = "<group>"; };
+		4D99D2D324C94E5E008080DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D99D2D624C94E5E008080DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4D99D2D824C94E5E008080DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D99D2DE24C94FAF008080DD /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		4D99D2E024C95028008080DD /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		4D99D2E224C95298008080DD /* RaceTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceTrack.swift; sourceTree = "<group>"; };
+		4D99D2EE24C95369008080DD /* racetrackData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = racetrackData.json; sourceTree = "<group>"; };
+		4D99D2FF24C9538A008080DD /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		4D99D30124C954EF008080DD /* silverstone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = silverstone.png; sourceTree = "<group>"; };
+		4D99D30324C95566008080DD /* adelaide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = adelaide.png; sourceTree = "<group>"; };
+		4D99D30524C955B6008080DD /* brandshatch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brandshatch.png; sourceTree = "<group>"; };
+		4D99D30724C95616008080DD /* barcelona.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barcelona.png; sourceTree = "<group>"; };
+		4D99D30924C95656008080DD /* monaco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monaco.png; sourceTree = "<group>"; };
+		4D99D30B24C95696008080DD /* americas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = americas.png; sourceTree = "<group>"; };
+		4D99D30D24C9577D008080DD /* RaceTrackRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceTrackRow.swift; sourceTree = "<group>"; };
+		4D99D30F24C95941008080DD /* RaceTrackList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceTrackList.swift; sourceTree = "<group>"; };
+		4D99D31124C95E10008080DD /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		4D99D31324C95F2F008080DD /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
+		4D99D31524C95F6F008080DD /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
+		4D99D31724C95FF9008080DD /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
+		4D99D31924C9607F008080DD /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		4D99D31B24C96144008080DD /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
+		4D99D31D24C96247008080DD /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
+		4D99D31F24C9627C008080DD /* HikeDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
+		4D99D32024C9627C008080DD /* GraphCapsule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphCapsule.swift; sourceTree = "<group>"; };
+		4D99D32124C9627C008080DD /* HikeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
+		4D99D32224C9627C008080DD /* Hike.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
+		4D99D32324C9627C008080DD /* HikeGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeGraph.swift; sourceTree = "<group>"; };
+		4D99D32924C962D4008080DD /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D99D2C924C94E5D008080DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D99D2C324C94E5D008080DD = {
+			isa = PBXGroup;
+			children = (
+				4D99D2CE24C94E5D008080DD /* RaceTracks */,
+				4D99D2CD24C94E5D008080DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D99D2CD24C94E5D008080DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D99D2CC24C94E5D008080DD /* RaceTracks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D99D2CE24C94E5D008080DD /* RaceTracks */ = {
+			isa = PBXGroup;
+			children = (
+				4D99D31924C9607F008080DD /* Badge.swift */,
+				4D99D31724C95FF9008080DD /* BadgeBackground.swift */,
+				4D99D31324C95F2F008080DD /* BadgeSymbol.swift */,
+				4D99D2DE24C94FAF008080DD /* CircleImage.swift */,
+				4D99D2FF24C9538A008080DD /* Data.swift */,
+				4D99D31524C95F6F008080DD /* HexagonParameters.swift */,
+				4D99D32224C9627C008080DD /* Hike.swift */,
+				4D99D31F24C9627C008080DD /* HikeDetail.swift */,
+				4D99D32324C9627C008080DD /* HikeGraph.swift */,
+				4D99D32124C9627C008080DD /* HikeView.swift */,
+				4D99D32924C962D4008080DD /* Home.swift */,
+				4D99D2E024C95028008080DD /* MapView.swift */,
+				4D99D2E224C95298008080DD /* RaceTrack.swift */,
+				4D99D2D124C94E5E008080DD /* RaceTrackDetailView.swift */,
+				4D99D30F24C95941008080DD /* RaceTrackList.swift */,
+				4D99D30D24C9577D008080DD /* RaceTrackRow.swift */,
+				4D99D2CF24C94E5E008080DD /* RaceTracksApp.swift */,
+				4D99D31B24C96144008080DD /* RotatedBadgeSymbol.swift */,
+				4D99D32024C9627C008080DD /* GraphCapsule.swift */,
+				4D99D31124C95E10008080DD /* UserData.swift */,
+				4D99D2D324C94E5E008080DD /* Assets.xcassets */,
+				4D99D2D824C94E5E008080DD /* Info.plist */,
+				4D99D2E424C95351008080DD /* Resources */,
+				4D99D2D524C94E5E008080DD /* Preview Content */,
+			);
+			path = RaceTracks;
+			sourceTree = "<group>";
+		};
+		4D99D2D524C94E5E008080DD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4D99D2D624C94E5E008080DD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4D99D2E424C95351008080DD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4D99D31D24C96247008080DD /* hikeData.json */,
+				4D99D2EE24C95369008080DD /* racetrackData.json */,
+				4D99D30324C95566008080DD /* adelaide.png */,
+				4D99D30124C954EF008080DD /* silverstone.png */,
+				4D99D30524C955B6008080DD /* brandshatch.png */,
+				4D99D30724C95616008080DD /* barcelona.png */,
+				4D99D30924C95656008080DD /* monaco.png */,
+				4D99D30B24C95696008080DD /* americas.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D99D2CB24C94E5D008080DD /* RaceTracks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D99D2DB24C94E5E008080DD /* Build configuration list for PBXNativeTarget "RaceTracks" */;
+			buildPhases = (
+				4D99D2C824C94E5D008080DD /* Sources */,
+				4D99D2C924C94E5D008080DD /* Frameworks */,
+				4D99D2CA24C94E5D008080DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RaceTracks;
+			productName = RaceTracks;
+			productReference = 4D99D2CC24C94E5D008080DD /* RaceTracks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D99D2C424C94E5D008080DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					4D99D2CB24C94E5D008080DD = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 4D99D2C724C94E5D008080DD /* Build configuration list for PBXProject "RaceTracks" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D99D2C324C94E5D008080DD;
+			productRefGroup = 4D99D2CD24C94E5D008080DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D99D2CB24C94E5D008080DD /* RaceTracks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D99D2CA24C94E5D008080DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D99D2D724C94E5E008080DD /* Preview Assets.xcassets in Resources */,
+				4D99D2FB24C95369008080DD /* racetrackData.json in Resources */,
+				4D99D30624C955B6008080DD /* brandshatch.png in Resources */,
+				4D99D30224C954EF008080DD /* silverstone.png in Resources */,
+				4D99D31E24C96247008080DD /* hikeData.json in Resources */,
+				4D99D30424C95566008080DD /* adelaide.png in Resources */,
+				4D99D30824C95616008080DD /* barcelona.png in Resources */,
+				4D99D2D424C94E5E008080DD /* Assets.xcassets in Resources */,
+				4D99D30A24C95656008080DD /* monaco.png in Resources */,
+				4D99D30C24C95696008080DD /* americas.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D99D2C824C94E5D008080DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D99D2E324C95298008080DD /* RaceTrack.swift in Sources */,
+				4D99D31424C95F2F008080DD /* BadgeSymbol.swift in Sources */,
+				4D99D32A24C962D4008080DD /* Home.swift in Sources */,
+				4D99D30024C9538A008080DD /* Data.swift in Sources */,
+				4D99D31024C95941008080DD /* RaceTrackList.swift in Sources */,
+				4D99D32824C9627C008080DD /* HikeGraph.swift in Sources */,
+				4D99D31624C95F6F008080DD /* HexagonParameters.swift in Sources */,
+				4D99D32624C9627C008080DD /* HikeView.swift in Sources */,
+				4D99D32724C9627C008080DD /* Hike.swift in Sources */,
+				4D99D31C24C96144008080DD /* RotatedBadgeSymbol.swift in Sources */,
+				4D99D31224C95E10008080DD /* UserData.swift in Sources */,
+				4D99D30E24C9577D008080DD /* RaceTrackRow.swift in Sources */,
+				4D99D31824C95FF9008080DD /* BadgeBackground.swift in Sources */,
+				4D99D2D224C94E5E008080DD /* RaceTrackDetailView.swift in Sources */,
+				4D99D2E124C95028008080DD /* MapView.swift in Sources */,
+				4D99D2D024C94E5E008080DD /* RaceTracksApp.swift in Sources */,
+				4D99D32524C9627C008080DD /* GraphCapsule.swift in Sources */,
+				4D99D31A24C9607F008080DD /* Badge.swift in Sources */,
+				4D99D2DF24C94FAF008080DD /* CircleImage.swift in Sources */,
+				4D99D32424C9627C008080DD /* HikeDetail.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4D99D2D924C94E5E008080DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D99D2DA24C94E5E008080DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D99D2DC24C94E5E008080DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RaceTracks/Preview Content\"";
+				DEVELOPMENT_TEAM = EYT7Q6838H;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RaceTracks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mgopsill.RaceTracks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D99D2DD24C94E5E008080DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RaceTracks/Preview Content\"";
+				DEVELOPMENT_TEAM = EYT7Q6838H;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RaceTracks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mgopsill.RaceTracks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D99D2C724C94E5D008080DD /* Build configuration list for PBXProject "RaceTracks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D99D2D924C94E5E008080DD /* Debug */,
+				4D99D2DA24C94E5E008080DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D99D2DB24C94E5E008080DD /* Build configuration list for PBXNativeTarget "RaceTracks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D99D2DC24C94E5E008080DD /* Debug */,
+				4D99D2DD24C94E5E008080DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D99D2C424C94E5D008080DD /* Project object */;
+}

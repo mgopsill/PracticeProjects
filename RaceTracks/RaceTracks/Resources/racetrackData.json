@@ -1,0 +1,92 @@
+[
+    {
+        "name": "Silverstone",
+        "category": "Featured",
+        "city": "Northampton",
+        "country": "England",
+        "id": 1001,
+        "track": "Silverstone",
+        "isFeatured": true,
+        "isFavorite": false,
+        "coordinates": {
+            "longitude": -1.02602,
+            "latitude": 52.09216
+        },
+        "imageName": "silverstone"
+    },
+    {
+        "name": "Adelaide",
+        "category": "Street",
+        "city": "Adelaide",
+        "country": "Australia",
+        "id": 1002,
+        "track": "Adelaide Street Circuit",
+        "isFeatured": true,
+        "isFavorite": false,
+        "coordinates": {
+            "longitude": 138.617222,
+            "latitude": -34.927222
+        },
+        "imageName": "adelaide"
+    },
+    {
+        "name": "Brands Hatch",
+        "category": "Standard",
+        "city": "West Kingsdown",
+        "country": "England",
+        "id": 1003,
+        "track": "Brands Hatch",
+        "isFeatured": true,
+        "isFavorite": true,
+        "coordinates": {
+            "longitude": 0.2625,
+            "latitude": 51.356667
+        },
+        "imageName": "brandshatch"
+    },
+    {
+        "name": "Circuit de Barcelona-Catalunya",
+        "category": "Standard",
+        "city": "Montmeló",
+        "country": "Spain",
+        "id": 1004,
+        "track": "Circuit de Barcelona-Catalunya",
+        "isFeatured": true,
+        "isFavorite": false,
+        "coordinates": {
+            "longitude": 2.261111,
+            "latitude": 41.57
+        },
+        "imageName": "barcelona"
+    },
+    {
+        "name": "Circuit de Monaco",
+        "category": "Street",
+        "city": "Monte Carlo",
+        "country": "Monaco",
+        "id": 1005,
+        "track": "Circuit de Monaco",
+        "isFeatured": true,
+        "isFavorite": false,
+        "coordinates": {
+            "longitude":  7.420556,
+            "latitude": 43.734722
+        },
+        "imageName": "monaco"
+    },
+    {
+        "name": "Circuit of the Americas",
+        "category": "Standard",
+        "city": "Austin",
+        "country": "United States",
+        "id": 1006,
+        "track": "Circuit of the Americas",
+        "isFeatured": true,
+        "isFavorite": false,
+        "coordinates": {
+            "longitude": -97.641111,
+            "latitude": 30.132778
+        },
+        "imageName": "americas"
+    }
+]
